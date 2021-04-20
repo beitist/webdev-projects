@@ -42,7 +42,6 @@ const equalButton = document.getElementById('equal-button');
 
 numberButtons.forEach(function (button) {
     button.addEventListener('click', function () {
-        console.log("Yeah!");
         if (calculation.operator == '') {
             calculation.firstNum += button.value;
             input.value = calculation.firstNum;
